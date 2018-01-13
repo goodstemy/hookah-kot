@@ -1,0 +1,22 @@
+{
+  "name": "hookah-kot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "install-deps": "npm install && bower install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "fullpage.js": "^2.9.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.6"
+  }
+}
